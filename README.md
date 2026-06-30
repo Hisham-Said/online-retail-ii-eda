@@ -1,132 +1,139 @@
-online-retail-ii-eda
-Exploratory Data Analysis (EDA) of the Online Retail II dataset using Python, Pandas, Matplotlib, and Seaborn. The project analyzes customer purchasing behavior, top-selling products, country-wise sales, monthly revenue trends, correlation, and outliers.
+# 🛍️ Online Retail Sales Analysis with Python
 
-📊 Online Retail II - Exploratory Data Analysis (EDA)
+## 📌 Project Overview
 
-📌 Project Overview
+This project is a beginner-friendly data analysis project using Python and Pandas. The goal was to explore an online retail dataset, clean the data, perform sales analysis, and visualize important business insights using different charts.
 
-This project is an **Exploratory Data Analysis (EDA)** of the **Online Retail II** dataset using Python. The goal is to understand customer purchasing behavior, identify data quality issues, analyze sales performance, and extract meaningful business insights before building any machine learning model.
-
----
-
- 🎯 Objectives
-
-The project includes the following tasks:
-
-* Load and explore the dataset
-* Display dataset shape, columns, and data types
-* Identify missing values
-* Detect duplicate rows
-* Analyze the top 10 best-selling products
-* Analyze sales performance by country
-* Plot monthly revenue trends
-* Create a correlation heatmap
-* Detect outliers using box plots
-* Generate business insights
+While working on this project, I practiced the complete data analysis workflow, from loading the dataset to generating meaningful insights.
 
 ---
 
-📂 Dataset
+## 🎯 Objectives
 
-**Dataset Name:** Online Retail II
-
-**Description:**
-The dataset contains transactional data from a UK-based online retail store between **2009 and 2011**. It includes invoice details, product descriptions, quantities, prices, customer IDs, and countries.
-
----
-
-## 🛠 Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
+- Load and understand the dataset
+- Explore the structure of the data
+- Check for missing values and duplicate records
+- Create a new revenue column
+- Find the best-selling products
+- Analyze sales by country
+- Analyze monthly sales trends
+- Visualize the data using different graphs
+- Generate simple business insights
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## 🛠️ Technologies Used
 
-The following analyses were performed:
-
-### ✅ Data Understanding
-
-* Dataset Shape
-* Column Names
-* Data Types
-
-### ✅ Data Quality Analysis
-
-* Missing Values
-* Duplicate Rows
-
-### ✅ Sales Analysis
-
-* Top 10 Best-Selling Products
-* Sales Performance by Country
-* Monthly Revenue Trend
-
-### ✅ Data Visualization
-
-* Bar Charts
-* Line Chart
-* Correlation Heatmap
-* Box Plots
-
-### ✅ Business Insights
-
-* Identified major sales trends
-* Compared country-wise revenue
-* Found top-selling products
-* Detected missing values and duplicates
-* Identified outliers in the dataset
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
 
 ---
 
-📁 Repository Structure
+## 📂 Dataset
 
+The project uses the **Online Retail II** dataset, which contains information about:
 
-🚀 How to Run
+- Invoice Number
+- Stock Code
+- Product Description
+- Quantity
+- Invoice Date
+- Unit Price
+- Customer ID
+- Country
 
-1. Clone this repository.
+---
 
-`bash
-git clone https://github.com/your-username/online-retail-ii-eda.git
+## 📊 Tasks Performed
 
+### 1. Data Loading
+- Imported the dataset using Pandas.
+- Displayed the first few rows.
 
-2. Install the required libraries.
+### 2. Data Exploration
+- Checked dataset shape.
+- Viewed column names.
+- Examined data types.
 
-```bash
-pip install pandas numpy matplotlib seaborn openpyxl
+### 3. Data Cleaning
+- Identified duplicate rows.
+- Checked missing values.
+- Removed rows with missing data.
+
+### 4. Feature Engineering
+Created a new column:
+
+```
+Revenue = Quantity × Price
 ```
 
-3. Open the notebook.
+This helped calculate the total sales amount for each transaction.
 
-`bash
-jupyter notebook
+### 5. Sales Analysis
 
+Performed different analyses including:
 
-4. Run all cells from top to bottom.
+- Top selling products
+- Revenue by country
+- Monthly sales trends
 
-📊 Libraries Used
+### 6. Data Visualization
 
-python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-📌 Key Learnings
-Through this project, I learned:
+Created different charts to better understand the data:
 
-* Exploratory Data Analysis (EDA)
-* Data cleaning and inspection
-* Handling missing values
-* Detecting duplicate records
-* Revenue analysis
-* Customer and country sales analysis
-* Data visualization using Matplotlib and Seaborn
-* Finding business insights from data
+- Line Chart
+- Heatmap
+- Box Plot
 
+### 7. Business Insights
+
+Based on the analysis, several business insights were identified, such as:
+
+- Countries generating the highest revenue
+- Best-selling products
+- Monthly sales performance
+- Detection of outliers in product quantity
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a star!
+## 📈 Visualizations
+
+The project includes:
+
+- 📉 Monthly Revenue Line Chart
+- 🔥 Correlation Heatmap
+- 📦 Quantity Box Plot
+
+These visualizations help understand trends, relationships, and unusual values in the dataset.
+
+---
+
+## 📚 What I Learned
+
+Working on this project helped me improve my understanding of:
+
+- Data cleaning using Pandas
+- Handling missing and duplicate values
+- GroupBy operations
+- Sorting and aggregation
+- Feature engineering
+- Time-series analysis
+- Data visualization
+- Extracting business insights from raw data
+
+
+## 👨‍💻 Author
+
+**Hisham Said**
+
+Computer Science Student | Learning Data Analytics & Machine Learning
+
+I'm currently building projects to strengthen my Python, Data Analysis, and Machine Learning skills.
+
+---
+
+## ⭐ Conclusion
+
+This project demonstrates the complete beginner-level data analysis process using Python. It shows how raw sales data can be cleaned, explored, analyzed, and transformed into meaningful business insights through visualization and simple analytical techniques.
