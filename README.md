@@ -41,7 +41,6 @@ The dataset contains transactional data from a UK-based online retail store betw
 * Pandas
 * NumPy
 * Matplotlib
-* Seaborn
 * Jupyter Notebook
 
 ---
@@ -86,13 +85,6 @@ The following analyses were performed:
 
 📁 Repository Structure
 
-text
-online-retail-ii-eda/
-│
-├── Week_task.ipynb
-├── online_retail_II.xlsx
-├── README.md
-└── images/ (optional)
 
 🚀 How to Run
 
@@ -122,7 +114,6 @@ python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 📌 Key Learnings
 Through this project, I learned:
 
